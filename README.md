@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Saurabh Harak</h1>
-<h3 align="center">Full Stack Developer turned Data Engineer 🚀</h3>
+<h3 align="center">Full Data Engineer turned AI/ML Engineer 🚀</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=saurabhharak&label=Profile%20views&color=0e75b6&style=flat" alt="saurabhharak" /> </p>
 
