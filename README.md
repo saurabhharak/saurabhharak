@@ -52,6 +52,10 @@ The frontier of GenAI isn't bigger context windows or smarter prompts. It's agen
 - I am using **LLM-as-Judge evaluation as the engine of self-improvement** — in a self-improving system, the evaluator decides how far the system can grow
 - I am designing persistent memory (episodic, semantic, procedural) so agents accumulate competence instead of resetting with every session
 
+### Shipping the loop — a consumer app that improves itself
+- I am building a consumer AI app where the improvement loop is the product itself: every user session becomes a trace, every trace gets judged, validated improvements ship behind promotion gates, and the quality trajectory is published on a public dashboard — an app that visibly gets smarter every week
+- I am porting the **dense feedback** architecture from production inference research to consumer products: answer accuracy verified against golden answer keys, per-query LLM-as-Judge scoring, and failure attribution down to the retrieval, grounding, or reasoning layer
+
 ### Baking skills into weights
 - I am fine-tuning open-weight models (Qwen, Llama) with **LoRA/PEFT and RL post-training**, turning agent experience into permanent model capability instead of fragile prompt libraries
 - I am moving from *prompting a general model* to *shaping a specialist*, using self-generated training data from real agent runs
